@@ -32,7 +32,7 @@ public class TestCalculator {
     public void testSubError(){
         Calculator calc = new Calculator();
         int result = calc.sub(20,10);
-//        assertFalse(result != 10);
-        assertEquals(20, result, "결과는 10이어야 합니다");
+        assertFalse(result != 10);
+//        assertEquals(20, result, "결과는 10이어야 합니다");
     }
 }
